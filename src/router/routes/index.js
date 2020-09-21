@@ -29,6 +29,9 @@ export const courseManagerRoutes = {
     list: '/course-manager/marks',
     info: '/course-manager/marks/:marksId/info',
   },
+  tasks: {
+    list: '/course-manager/tasks',
+  },
 }
 
 export const studentRoutes = {
